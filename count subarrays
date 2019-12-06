@@ -25,7 +25,8 @@ int sameOccurrence(int arr[], int n, int x,int y)
 int main() 
 { 
     int arr[] = { 1, 2, 2, 3, 4, 1 }; 
-    int n = sizeof(arr) / sizeof(arr[0]); 
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int x = 2, y = 3;
     cout << sameOccurrence(arr, n, x, y); 
     return (0); 
 } 
