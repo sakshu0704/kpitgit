@@ -2,7 +2,7 @@
   
 // arr is a pointer even if we have 
 // use square brackets. 
-void printArray(int arr[]) 
+void printArray(int arr[], int arr_size)  
 { 
     int i; 
   
