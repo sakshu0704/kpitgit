@@ -1,7 +1,7 @@
 #include <bits/stdc++.h> 
 using namespace std; 
   
-int sameOccurrence(int arr[], int n, int x) 
+int sameOccurrence(int arr[], int n, int x,int y) 
 { 
     int result = 0; 
   
