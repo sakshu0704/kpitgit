@@ -2,9 +2,9 @@
   
 
 void printArray(int arr[], int size); 
-void swap(int arr[5], int fi, int si, int d); 
+void swap(int arr[], int fi, int si, int d); 
   
-void leftRotate(int arr[4], int d, int n) 
+void leftRotate(int arr[], int d, int n) 
 {  
   
   if(d == 0 || d == n) 
@@ -12,8 +12,9 @@ void leftRotate(int arr[4], int d, int n)
       
    
   if(n-d == d) 
+  {
   
-    swap(arr, 0, n-d, d)    
+    swap(arr, 0, n-d, d);    
     return; 
   }   
       
@@ -57,6 +58,6 @@ int main()
    int arr[] = {1, 2, 3, 4, 5, 6, 7}; 
    leftRotate(arr, 2, 7); 
    printArray(arr, 7); 
-   getchar() 
+   getchar(); 
    return 0; 
-    
+} 
